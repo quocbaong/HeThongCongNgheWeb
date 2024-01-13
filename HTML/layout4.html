@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        #layout{
+            height: 500px;
+            width: 1000px;
+            border: 2px solid rgb(2, 24, 1);
+            margin-top: 20px;
+        }
+        header{
+            height: 10%;
+            width: 100%;
+            border-bottom: 2px solid rgb(15, 1, 1);
+            background-color: rgb(16, 234, 234);
+        }
+        nav{
+            height: 80%;
+            width: 20%;
+            border-right: 2px solid rgb(23, 1, 1);
+            background-color: rgb(7, 77, 230);
+            float: left;
+        }
+        section{
+            height: 80%;
+            width: 80%;
+            background-color: rgb(32, 220, 101);
+            float: left;
+        }
+        article{
+            height: 80%;
+            width: 90%;
+            background-color: rgb(149, 5, 17);
+            margin: 0 auto;
+            border: 2px solid rgb(10, 0, 0);
+            display: flex;
+        }
+        footer{
+            height: 10%;
+            width: 100%;
+            border-top: 2px solid rgb(24, 2, 2);
+            background-color: rgb(216, 75, 221);
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="layout">
+        <header>
+            header
+        </header>
+        <nav>
+            nav
+        </nav>
+        <section>section
+            <article>
+                article
+            </article>
+        </section>
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+</html>
