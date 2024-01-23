@@ -1,0 +1,112 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.wrapper {
+    height: 700px;
+    width: 1200px;
+    background-color: rgb(193, 184, 250);
+    border: 1px solid black;
+    margin: 0px auto;
+}
+header{
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+
+}
+header h1:hover {
+    color: yellow;
+    font-style: italic;
+}
+header h2{
+    position: absolute;
+    top: 70px;
+    left: 440px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 5px hsl(231, 95%, 59%);
+}
+header h2:hover {
+    color: yellow;
+    font-style: italic;
+}
+nav {
+    position: relative;
+}
+
+.menu li{
+    position: absolute;
+    font-size: 20px;
+    height: 50px;
+    width: 170px;
+    background-color: rgb(120, 248, 128);
+    list-style-type: none;
+    border: 1px solid rgb(88, 56, 232);
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.menu li:nth-child(5) {
+    top: 20px;
+    right: 50px;
+    line-height: 50px;
+    text-indent: 30px;
+}
+.menu li:nth-child(4) {
+    top: 20px;
+    right: 230px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(3) {
+    top: 20px;
+    right: 410px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(2) {
+    top: 20px;
+    right: 590px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(1) {
+    top: 50px;
+    right: 790px;
+    line-height: 50px;
+    transform: rotate(-20deg);
+    text-indent: 20px;
+}
+
+.menu li:hover {
+    background-color: rgb(88, 231, 221);
+}
+
+li a {
+    font-weight: bold;
+    color: black;
+}
+li:hover a{
+    font-weight: bold;
+    font-style: italic;
+}
+form #textemail {
+    width: 100px;
+    height: 20px;
+}
+
+#go {
+    height: 25px;
+    width: 30px;
+}
